@@ -9,7 +9,7 @@ import java.util.Set;
  * @param <Parent> parent element type
  */
 public interface Hierarchy<Element extends Hierarchical<Element, Parent>, Parent extends Element> {
-
+	
     /**
      * Adds a given element to the hierarchy.
      * <p>

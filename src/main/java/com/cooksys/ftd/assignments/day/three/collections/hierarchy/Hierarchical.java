@@ -6,6 +6,8 @@ package com.cooksys.ftd.assignments.day.three.collections.hierarchy;
  * @param <Parent> parent element type
  */
 public interface Hierarchical<Element extends Hierarchical<Element, Parent>, Parent extends Element> {
+	
+	
 
     /**
      * @return true if this element has a parent, or false otherwise
