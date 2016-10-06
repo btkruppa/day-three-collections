@@ -136,7 +136,7 @@ public class MegaCorp implements Hierarchy<Capitalist, FatCat> {
 	 *         modified, or an empty set if no parents have been added to the
 	 *         hierarchy
 	 */
-	public Set<FatCat> getParentsEditable() {
+	private Set<FatCat> getParentsEditable() {
 		if (hierarchyCollection.keySet() == null) {
 			Set<FatCat> emptySet = new HashSet<FatCat>();
 			return emptySet;
