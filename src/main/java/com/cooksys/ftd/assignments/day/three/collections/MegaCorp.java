@@ -65,7 +65,7 @@ public class MegaCorp implements Hierarchy<Capitalist, FatCat> {
 			}
 			return true;
 		}
-		
+		  
 		return true;
 
 	}
@@ -218,6 +218,7 @@ public class MegaCorp implements Hierarchy<Capitalist, FatCat> {
 	public List<FatCat> getParentChain(Capitalist capitalist) {
 		List<FatCat> parentChain = new ArrayList<FatCat>();
 		if (capitalist != null) {
+			
 			if(has(capitalist.getParent())) {
 				Capitalist lineageMember = capitalist;
 				while(lineageMember.hasParent()) {
